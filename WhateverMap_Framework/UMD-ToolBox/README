@@ -1,0 +1,13 @@
+UMD ToolBox
+
+This project is part of WhateverMap Framework. Purpose of this project is to use Universal Map Definition (UMD) as specific JSON format for specification of layers. You can specify layers from WMS, TMS, Zoomify, DeepZoomm … According to this definition you can generate tiles URL and dynamically change content of your map composition in an application.
+
+To run code properly you need to include those project:
+Proj.4:
+http://trac.osgeo.org/proj/
+GCMathParser:
+http://apptree.net/parser.htm
+
+use MapParserDefinition to parse JSON file fit definition (sample of definition is in sample_definition.txt)
+
+Than use QueryFActory to generate tile URL according to current definition and information as zoom, column, row or more if some specific feature are needed.

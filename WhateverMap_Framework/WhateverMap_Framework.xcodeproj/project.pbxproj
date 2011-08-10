@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49255A9713D3807400DDFDCD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49255A9113D3807400DDFDCD /* CFNetwork.framework */; };
+		49255A9813D3807400DDFDCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49255A9213D3807400DDFDCD /* CoreGraphics.framework */; };
+		49255A9913D3807400DDFDCD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49255A9313D3807400DDFDCD /* CoreLocation.framework */; };
+		49255A9A13D3807400DDFDCD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49255A9413D3807400DDFDCD /* QuartzCore.framework */; };
+		49255A9B13D3807400DDFDCD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49255A9513D3807400DDFDCD /* SystemConfiguration.framework */; };
+		49255A9C13D3807400DDFDCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49255A9613D3807400DDFDCD /* UIKit.framework */; };
+		49255AD613D381B300DDFDCD /* MapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 49255AD513D381B300DDFDCD /* MapSource.m */; };
+		4935CA9D13EB32F500998A23 /* libProj_4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4935CA9C13EB32F500998A23 /* libProj_4.a */; };
+		49E74B3013D37E4B00571412 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1513D37E4B00571412 /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B3113D37E4B00571412 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B1613D37E4B00571412 /* Common.m */; };
+		49E74B3213D37E4B00571412 /* ConnectionReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1713D37E4B00571412 /* ConnectionReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B3313D37E4B00571412 /* ConnectionReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B1813D37E4B00571412 /* ConnectionReachability.m */; };
+		49E74B3413D37E4B00571412 /* constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1913D37E4B00571412 /* constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B3513D37E4B00571412 /* InfoGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1A13D37E4B00571412 /* InfoGetter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B3613D37E4B00571412 /* InfoGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B1B13D37E4B00571412 /* InfoGetter.m */; };
+		49E74B3713D37E4B00571412 /* MapSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1C13D37E4B00571412 /* MapSource.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B3813D37E4B00571412 /* PositionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1D13D37E4B00571412 /* PositionView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B3913D37E4B00571412 /* PositionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B1E13D37E4B00571412 /* PositionView.m */; };
+		49E74B3A13D37E4B00571412 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1F13D37E4B00571412 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B3B13D37E4B00571412 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2013D37E4B00571412 /* Reachability.m */; };
+		49E74B3C13D37E4B00571412 /* TapDetectingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2113D37E4B00571412 /* TapDetectingView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B3D13D37E4B00571412 /* TapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2213D37E4B00571412 /* TapDetectingView.m */; };
+		49E74B3E13D37E4B00571412 /* TileDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2313D37E4B00571412 /* TileDispatcher.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B3F13D37E4B00571412 /* TileDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2413D37E4B00571412 /* TileDispatcher.m */; };
+		49E74B4013D37E4B00571412 /* TiledScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2513D37E4B00571412 /* TiledScrollView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B4113D37E4B00571412 /* TiledScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2613D37E4B00571412 /* TiledScrollView.m */; };
+		49E74B4213D37E4B00571412 /* TileView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2713D37E4B00571412 /* TileView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B4313D37E4B00571412 /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2813D37E4B00571412 /* TileView.m */; };
+		49E74B4413D37E4B00571412 /* WMDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2913D37E4B00571412 /* WMDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B4513D37E4B00571412 /* WMDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2A13D37E4B00571412 /* WMDataSource.m */; };
+		49E74B4613D37E4B00571412 /* WMMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2B13D37E4B00571412 /* WMMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B4713D37E4B00571412 /* WMMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2C13D37E4B00571412 /* WMMapView.m */; };
+		49E74B4813D37E4B00571412 /* WMMapViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2D13D37E4B00571412 /* WMMapViewProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B4913D37E4B00571412 /* WMSSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2E13D37E4B00571412 /* WMSSource.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B4A13D37E4B00571412 /* WMSSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2F13D37E4B00571412 /* WMSSource.m */; };
+		49E74B6013D37E5600571412 /* AffineTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B4B13D37E5600571412 /* AffineTransformation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B6113D37E5600571412 /* AffineTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B4C13D37E5600571412 /* AffineTransformation.m */; };
+		49E74B6213D37E5600571412 /* BilinearInterpolation.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B4D13D37E5600571412 /* BilinearInterpolation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B6313D37E5600571412 /* BilinearInterpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B4E13D37E5600571412 /* BilinearInterpolation.m */; };
+		49E74B6413D37E5600571412 /* CoordConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B4F13D37E5600571412 /* CoordConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B6513D37E5600571412 /* CoordConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5013D37E5600571412 /* CoordConverter.m */; };
+		49E74B6613D37E5600571412 /* ExpressionWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5113D37E5600571412 /* ExpressionWrapper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B6713D37E5600571412 /* ExpressionWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5213D37E5600571412 /* ExpressionWrapper.m */; };
+		49E74B6813D37E5600571412 /* MapDefinitionParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5413D37E5600571412 /* MapDefinitionParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B6913D37E5600571412 /* MapDefinitionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5513D37E5600571412 /* MapDefinitionParser.m */; };
+		49E74B6A13D37E5600571412 /* MapSourceDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5613D37E5600571412 /* MapSourceDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B6B13D37E5600571412 /* MapSourceDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5713D37E5600571412 /* MapSourceDefinition.m */; };
+		49E74B6C13D37E5600571412 /* Projection.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5813D37E5600571412 /* Projection.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B6D13D37E5600571412 /* Projection.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5913D37E5600571412 /* Projection.m */; };
+		49E74B6E13D37E5600571412 /* QueryFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5A13D37E5600571412 /* QueryFactory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B6F13D37E5600571412 /* QueryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5B13D37E5600571412 /* QueryFactory.m */; };
+		49E74B7013D37E5600571412 /* typeDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5E13D37E5600571412 /* typeDefinition.m */; };
+		49E74B7113D37E5600571412 /* typeDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5F13D37E5600571412 /* typeDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49F1D50513D31D8800732456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F1D50413D31D8800732456 /* Foundation.framework */; };
+		49F1D57E13D31F1700732456 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57313D31F1700732456 /* JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49F1D57F13D31F1700732456 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57413D31F1700732456 /* NSObject+SBJSON.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D58013D31F1700732456 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D57513D31F1700732456 /* NSObject+SBJSON.m */; };
+		49F1D58113D31F1700732456 /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57613D31F1700732456 /* NSString+SBJSON.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D58213D31F1700732456 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D57713D31F1700732456 /* NSString+SBJSON.m */; };
+		49F1D58313D31F1700732456 /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57813D31F1700732456 /* SBJsonBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D58413D31F1700732456 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D57913D31F1700732456 /* SBJsonBase.m */; };
+		49F1D58513D31F1700732456 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57A13D31F1700732456 /* SBJsonParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D58613D31F1700732456 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D57B13D31F1700732456 /* SBJsonParser.m */; };
+		49F1D58713D31F1700732456 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57C13D31F1700732456 /* SBJsonWriter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D58813D31F1700732456 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D57D13D31F1700732456 /* SBJsonWriter.m */; };
+		49F1D59113D31F2A00732456 /* GCMathParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D58B13D31F2A00732456 /* GCMathParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D59213D31F2A00732456 /* GCMathParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D58C13D31F2A00732456 /* GCMathParser.m */; };
+		49F1D59313D31F2A00732456 /* ZExpParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D58D13D31F2A00732456 /* ZExpParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D59413D31F2A00732456 /* ZExpParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D58E13D31F2A00732456 /* ZExpParser.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4906069D13E9E291007CA536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F1D59513D31F3D00732456 /* Proj.4.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = Proj.4;
+		};
+		49F1D59C13D31F3E00732456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F1D59513D31F3D00732456 /* Proj.4.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = Proj.4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49255A9113D3807400DDFDCD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		49255A9213D3807400DDFDCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49255A9313D3807400DDFDCD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		49255A9413D3807400DDFDCD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		49255A9513D3807400DDFDCD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		49255A9613D3807400DDFDCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49255AD513D381B300DDFDCD /* MapSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapSource.m; path = Classes/MapSource.m; sourceTree = SOURCE_ROOT; };
+		4935CA9C13EB32F500998A23 /* libProj_4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libProj_4.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D2504613DAF46200C4C697 /* libProj_4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libProj_4.a; sourceTree = SOURCE_ROOT; };
+		49E74B1513D37E4B00571412 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Classes/Common.h; sourceTree = SOURCE_ROOT; };
+		49E74B1613D37E4B00571412 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = Classes/Common.m; sourceTree = SOURCE_ROOT; };
+		49E74B1713D37E4B00571412 /* ConnectionReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionReachability.h; path = Classes/ConnectionReachability.h; sourceTree = SOURCE_ROOT; };
+		49E74B1813D37E4B00571412 /* ConnectionReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectionReachability.m; path = Classes/ConnectionReachability.m; sourceTree = SOURCE_ROOT; };
+		49E74B1913D37E4B00571412 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constants.h; path = Classes/constants.h; sourceTree = SOURCE_ROOT; };
+		49E74B1A13D37E4B00571412 /* InfoGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoGetter.h; path = Classes/InfoGetter.h; sourceTree = SOURCE_ROOT; };
+		49E74B1B13D37E4B00571412 /* InfoGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoGetter.m; path = Classes/InfoGetter.m; sourceTree = SOURCE_ROOT; };
+		49E74B1C13D37E4B00571412 /* MapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapSource.h; path = Classes/MapSource.h; sourceTree = SOURCE_ROOT; };
+		49E74B1D13D37E4B00571412 /* PositionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PositionView.h; path = Classes/PositionView.h; sourceTree = SOURCE_ROOT; };
+		49E74B1E13D37E4B00571412 /* PositionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PositionView.m; path = Classes/PositionView.m; sourceTree = SOURCE_ROOT; };
+		49E74B1F13D37E4B00571412 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Classes/Reachability.h; sourceTree = SOURCE_ROOT; };
+		49E74B2013D37E4B00571412 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Classes/Reachability.m; sourceTree = SOURCE_ROOT; };
+		49E74B2113D37E4B00571412 /* TapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapDetectingView.h; path = Classes/TapDetectingView.h; sourceTree = SOURCE_ROOT; };
+		49E74B2213D37E4B00571412 /* TapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TapDetectingView.m; path = Classes/TapDetectingView.m; sourceTree = SOURCE_ROOT; };
+		49E74B2313D37E4B00571412 /* TileDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileDispatcher.h; path = Classes/TileDispatcher.h; sourceTree = SOURCE_ROOT; };
+		49E74B2413D37E4B00571412 /* TileDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TileDispatcher.m; path = Classes/TileDispatcher.m; sourceTree = SOURCE_ROOT; };
+		49E74B2513D37E4B00571412 /* TiledScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiledScrollView.h; path = Classes/TiledScrollView.h; sourceTree = SOURCE_ROOT; };
+		49E74B2613D37E4B00571412 /* TiledScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiledScrollView.m; path = Classes/TiledScrollView.m; sourceTree = SOURCE_ROOT; };
+		49E74B2713D37E4B00571412 /* TileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileView.h; path = Classes/TileView.h; sourceTree = SOURCE_ROOT; };
+		49E74B2813D37E4B00571412 /* TileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TileView.m; path = Classes/TileView.m; sourceTree = SOURCE_ROOT; };
+		49E74B2913D37E4B00571412 /* WMDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMDataSource.h; path = Classes/WMDataSource.h; sourceTree = SOURCE_ROOT; };
+		49E74B2A13D37E4B00571412 /* WMDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMDataSource.m; path = Classes/WMDataSource.m; sourceTree = SOURCE_ROOT; };
+		49E74B2B13D37E4B00571412 /* WMMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMMapView.h; path = Classes/WMMapView.h; sourceTree = SOURCE_ROOT; };
+		49E74B2C13D37E4B00571412 /* WMMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMMapView.m; path = Classes/WMMapView.m; sourceTree = SOURCE_ROOT; };
+		49E74B2D13D37E4B00571412 /* WMMapViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMMapViewProtocol.h; path = Classes/WMMapViewProtocol.h; sourceTree = SOURCE_ROOT; };
+		49E74B2E13D37E4B00571412 /* WMSSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMSSource.h; path = Classes/WMSSource.h; sourceTree = SOURCE_ROOT; };
+		49E74B2F13D37E4B00571412 /* WMSSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMSSource.m; path = Classes/WMSSource.m; sourceTree = SOURCE_ROOT; };
+		49E74B4B13D37E5600571412 /* AffineTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AffineTransformation.h; path = "UMD-ToolBox/AffineTransformation.h"; sourceTree = SOURCE_ROOT; };
+		49E74B4C13D37E5600571412 /* AffineTransformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AffineTransformation.m; path = "UMD-ToolBox/AffineTransformation.m"; sourceTree = SOURCE_ROOT; };
+		49E74B4D13D37E5600571412 /* BilinearInterpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BilinearInterpolation.h; path = "UMD-ToolBox/BilinearInterpolation.h"; sourceTree = SOURCE_ROOT; };
+		49E74B4E13D37E5600571412 /* BilinearInterpolation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BilinearInterpolation.m; path = "UMD-ToolBox/BilinearInterpolation.m"; sourceTree = SOURCE_ROOT; };
+		49E74B4F13D37E5600571412 /* CoordConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoordConverter.h; path = "UMD-ToolBox/CoordConverter.h"; sourceTree = SOURCE_ROOT; };
+		49E74B5013D37E5600571412 /* CoordConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoordConverter.m; path = "UMD-ToolBox/CoordConverter.m"; sourceTree = SOURCE_ROOT; };
+		49E74B5113D37E5600571412 /* ExpressionWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpressionWrapper.h; path = "UMD-ToolBox/ExpressionWrapper.h"; sourceTree = SOURCE_ROOT; };
+		49E74B5213D37E5600571412 /* ExpressionWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpressionWrapper.m; path = "UMD-ToolBox/ExpressionWrapper.m"; sourceTree = SOURCE_ROOT; };
+		49E74B5313D37E5600571412 /* LICENSE-2.0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "LICENSE-2.0.txt"; path = "UMD-ToolBox/LICENSE-2.0.txt"; sourceTree = SOURCE_ROOT; };
+		49E74B5413D37E5600571412 /* MapDefinitionParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapDefinitionParser.h; path = "UMD-ToolBox/MapDefinitionParser.h"; sourceTree = SOURCE_ROOT; };
+		49E74B5513D37E5600571412 /* MapDefinitionParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapDefinitionParser.m; path = "UMD-ToolBox/MapDefinitionParser.m"; sourceTree = SOURCE_ROOT; };
+		49E74B5613D37E5600571412 /* MapSourceDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapSourceDefinition.h; path = "UMD-ToolBox/MapSourceDefinition.h"; sourceTree = SOURCE_ROOT; };
+		49E74B5713D37E5600571412 /* MapSourceDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapSourceDefinition.m; path = "UMD-ToolBox/MapSourceDefinition.m"; sourceTree = SOURCE_ROOT; };
+		49E74B5813D37E5600571412 /* Projection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Projection.h; path = "UMD-ToolBox/Projection.h"; sourceTree = SOURCE_ROOT; };
+		49E74B5913D37E5600571412 /* Projection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Projection.m; path = "UMD-ToolBox/Projection.m"; sourceTree = SOURCE_ROOT; };
+		49E74B5A13D37E5600571412 /* QueryFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QueryFactory.h; path = "UMD-ToolBox/QueryFactory.h"; sourceTree = SOURCE_ROOT; };
+		49E74B5B13D37E5600571412 /* QueryFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QueryFactory.m; path = "UMD-ToolBox/QueryFactory.m"; sourceTree = SOURCE_ROOT; };
+		49E74B5C13D37E5600571412 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = "UMD-ToolBox/README"; sourceTree = SOURCE_ROOT; };
+		49E74B5D13D37E5600571412 /* sample_definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sample_definition.txt; path = "UMD-ToolBox/sample_definition.txt"; sourceTree = SOURCE_ROOT; };
+		49E74B5E13D37E5600571412 /* typeDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = typeDefinition.m; path = "UMD-ToolBox/typeDefinition.m"; sourceTree = SOURCE_ROOT; };
+		49E74B5F13D37E5600571412 /* typeDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = typeDefinitions.h; path = "UMD-ToolBox/typeDefinitions.h"; sourceTree = SOURCE_ROOT; };
+		49F1D50113D31D8800732456 /* libWhateverMap_Framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWhateverMap_Framework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F1D50413D31D8800732456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49F1D50813D31D8800732456 /* WhateverMap_Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhateverMap_Framework-Prefix.pch"; sourceTree = "<group>"; };
+		49F1D57313D31F1700732456 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = IncludedProjects/JSON/JSON/JSON.h; sourceTree = SOURCE_ROOT; };
+		49F1D57413D31F1700732456 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJSON.h"; path = "IncludedProjects/JSON/JSON/NSObject+SBJSON.h"; sourceTree = SOURCE_ROOT; };
+		49F1D57513D31F1700732456 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJSON.m"; path = "IncludedProjects/JSON/JSON/NSObject+SBJSON.m"; sourceTree = SOURCE_ROOT; };
+		49F1D57613D31F1700732456 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SBJSON.h"; path = "IncludedProjects/JSON/JSON/NSString+SBJSON.h"; sourceTree = SOURCE_ROOT; };
+		49F1D57713D31F1700732456 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SBJSON.m"; path = "IncludedProjects/JSON/JSON/NSString+SBJSON.m"; sourceTree = SOURCE_ROOT; };
+		49F1D57813D31F1700732456 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonBase.h; path = IncludedProjects/JSON/JSON/SBJsonBase.h; sourceTree = SOURCE_ROOT; };
+		49F1D57913D31F1700732456 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonBase.m; path = IncludedProjects/JSON/JSON/SBJsonBase.m; sourceTree = SOURCE_ROOT; };
+		49F1D57A13D31F1700732456 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = IncludedProjects/JSON/JSON/SBJsonParser.h; sourceTree = SOURCE_ROOT; };
+		49F1D57B13D31F1700732456 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = IncludedProjects/JSON/JSON/SBJsonParser.m; sourceTree = SOURCE_ROOT; };
+		49F1D57C13D31F1700732456 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = IncludedProjects/JSON/JSON/SBJsonWriter.h; sourceTree = SOURCE_ROOT; };
+		49F1D57D13D31F1700732456 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = IncludedProjects/JSON/JSON/SBJsonWriter.m; sourceTree = SOURCE_ROOT; };
+		49F1D58B13D31F2A00732456 /* GCMathParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCMathParser.h; path = IncludedProjects/GCExpressionParser/GCMathParser.h; sourceTree = SOURCE_ROOT; };
+		49F1D58C13D31F2A00732456 /* GCMathParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCMathParser.m; path = IncludedProjects/GCExpressionParser/GCMathParser.m; sourceTree = SOURCE_ROOT; };
+		49F1D58D13D31F2A00732456 /* ZExpParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZExpParser.h; path = IncludedProjects/GCExpressionParser/ZExpParser.h; sourceTree = SOURCE_ROOT; };
+		49F1D58E13D31F2A00732456 /* ZExpParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZExpParser.mm; path = IncludedProjects/GCExpressionParser/ZExpParser.mm; sourceTree = SOURCE_ROOT; };
+		49F1D59513D31F3D00732456 /* Proj.4.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Proj.4.xcodeproj; path = IncludedProjects/Proj.4/Proj.4.xcodeproj; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F1D4FE13D31D8800732456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4935CA9D13EB32F500998A23 /* libProj_4.a in Frameworks */,
+				49255A9713D3807400DDFDCD /* CFNetwork.framework in Frameworks */,
+				49255A9813D3807400DDFDCD /* CoreGraphics.framework in Frameworks */,
+				49255A9913D3807400DDFDCD /* CoreLocation.framework in Frameworks */,
+				49255A9A13D3807400DDFDCD /* QuartzCore.framework in Frameworks */,
+				49255A9B13D3807400DDFDCD /* SystemConfiguration.framework in Frameworks */,
+				49255A9C13D3807400DDFDCD /* UIKit.framework in Frameworks */,
+				49F1D50513D31D8800732456 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49E74B1313D37E3200571412 /* UMD-ToolBox */ = {
+			isa = PBXGroup;
+			children = (
+				49E74B4B13D37E5600571412 /* AffineTransformation.h */,
+				49E74B4C13D37E5600571412 /* AffineTransformation.m */,
+				49E74B4D13D37E5600571412 /* BilinearInterpolation.h */,
+				49E74B4E13D37E5600571412 /* BilinearInterpolation.m */,
+				49E74B4F13D37E5600571412 /* CoordConverter.h */,
+				49E74B5013D37E5600571412 /* CoordConverter.m */,
+				49E74B5113D37E5600571412 /* ExpressionWrapper.h */,
+				49E74B5213D37E5600571412 /* ExpressionWrapper.m */,
+				49E74B5313D37E5600571412 /* LICENSE-2.0.txt */,
+				49E74B5413D37E5600571412 /* MapDefinitionParser.h */,
+				49E74B5513D37E5600571412 /* MapDefinitionParser.m */,
+				49E74B5613D37E5600571412 /* MapSourceDefinition.h */,
+				49E74B5713D37E5600571412 /* MapSourceDefinition.m */,
+				49E74B5813D37E5600571412 /* Projection.h */,
+				49E74B5913D37E5600571412 /* Projection.m */,
+				49E74B5A13D37E5600571412 /* QueryFactory.h */,
+				49E74B5B13D37E5600571412 /* QueryFactory.m */,
+				49E74B5C13D37E5600571412 /* README */,
+				49E74B5D13D37E5600571412 /* sample_definition.txt */,
+				49E74B5E13D37E5600571412 /* typeDefinition.m */,
+				49E74B5F13D37E5600571412 /* typeDefinitions.h */,
+			);
+			name = "UMD-ToolBox";
+			sourceTree = "<group>";
+		};
+		49E74B1413D37E3600571412 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				49255AD513D381B300DDFDCD /* MapSource.m */,
+				49E74B1513D37E4B00571412 /* Common.h */,
+				49E74B1613D37E4B00571412 /* Common.m */,
+				49E74B1713D37E4B00571412 /* ConnectionReachability.h */,
+				49E74B1813D37E4B00571412 /* ConnectionReachability.m */,
+				49E74B1913D37E4B00571412 /* constants.h */,
+				49E74B1A13D37E4B00571412 /* InfoGetter.h */,
+				49E74B1B13D37E4B00571412 /* InfoGetter.m */,
+				49E74B1C13D37E4B00571412 /* MapSource.h */,
+				49E74B1D13D37E4B00571412 /* PositionView.h */,
+				49E74B1E13D37E4B00571412 /* PositionView.m */,
+				49E74B1F13D37E4B00571412 /* Reachability.h */,
+				49E74B2013D37E4B00571412 /* Reachability.m */,
+				49E74B2113D37E4B00571412 /* TapDetectingView.h */,
+				49E74B2213D37E4B00571412 /* TapDetectingView.m */,
+				49E74B2313D37E4B00571412 /* TileDispatcher.h */,
+				49E74B2413D37E4B00571412 /* TileDispatcher.m */,
+				49E74B2513D37E4B00571412 /* TiledScrollView.h */,
+				49E74B2613D37E4B00571412 /* TiledScrollView.m */,
+				49E74B2713D37E4B00571412 /* TileView.h */,
+				49E74B2813D37E4B00571412 /* TileView.m */,
+				49E74B2913D37E4B00571412 /* WMDataSource.h */,
+				49E74B2A13D37E4B00571412 /* WMDataSource.m */,
+				49E74B2B13D37E4B00571412 /* WMMapView.h */,
+				49E74B2C13D37E4B00571412 /* WMMapView.m */,
+				49E74B2D13D37E4B00571412 /* WMMapViewProtocol.h */,
+				49E74B2E13D37E4B00571412 /* WMSSource.h */,
+				49E74B2F13D37E4B00571412 /* WMSSource.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		49F1D4F613D31D8700732456 = {
+			isa = PBXGroup;
+			children = (
+				4935CA9C13EB32F500998A23 /* libProj_4.a */,
+				49F1D50613D31D8800732456 /* WhateverMap_Framework */,
+				49F1D50313D31D8800732456 /* Frameworks */,
+				49F1D50213D31D8800732456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49F1D50213D31D8800732456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F1D50113D31D8800732456 /* libWhateverMap_Framework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F1D50313D31D8800732456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49255A9113D3807400DDFDCD /* CFNetwork.framework */,
+				49255A9213D3807400DDFDCD /* CoreGraphics.framework */,
+				49255A9313D3807400DDFDCD /* CoreLocation.framework */,
+				49255A9413D3807400DDFDCD /* QuartzCore.framework */,
+				49255A9513D3807400DDFDCD /* SystemConfiguration.framework */,
+				49255A9613D3807400DDFDCD /* UIKit.framework */,
+				49D2504613DAF46200C4C697 /* libProj_4.a */,
+				49F1D50413D31D8800732456 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49F1D50613D31D8800732456 /* WhateverMap_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				49E74B1413D37E3600571412 /* Classes */,
+				49E74B1313D37E3200571412 /* UMD-ToolBox */,
+				49F1D56F13D31EE300732456 /* IncludedPojects */,
+				49F1D50713D31D8800732456 /* Supporting Files */,
+			);
+			path = WhateverMap_Framework;
+			sourceTree = "<group>";
+		};
+		49F1D50713D31D8800732456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49F1D50813D31D8800732456 /* WhateverMap_Framework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49F1D56F13D31EE300732456 /* IncludedPojects */ = {
+			isa = PBXGroup;
+			children = (
+				49F1D57213D31EF700732456 /* Proj.4 */,
+				49F1D57113D31EF500732456 /* Parser */,
+				49F1D57013D31EEF00732456 /* JSON */,
+			);
+			name = IncludedPojects;
+			sourceTree = "<group>";
+		};
+		49F1D57013D31EEF00732456 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				49F1D57313D31F1700732456 /* JSON.h */,
+				49F1D57413D31F1700732456 /* NSObject+SBJSON.h */,
+				49F1D57513D31F1700732456 /* NSObject+SBJSON.m */,
+				49F1D57613D31F1700732456 /* NSString+SBJSON.h */,
+				49F1D57713D31F1700732456 /* NSString+SBJSON.m */,
+				49F1D57813D31F1700732456 /* SBJsonBase.h */,
+				49F1D57913D31F1700732456 /* SBJsonBase.m */,
+				49F1D57A13D31F1700732456 /* SBJsonParser.h */,
+				49F1D57B13D31F1700732456 /* SBJsonParser.m */,
+				49F1D57C13D31F1700732456 /* SBJsonWriter.h */,
+				49F1D57D13D31F1700732456 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		49F1D57113D31EF500732456 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				49F1D58B13D31F2A00732456 /* GCMathParser.h */,
+				49F1D58C13D31F2A00732456 /* GCMathParser.m */,
+				49F1D58D13D31F2A00732456 /* ZExpParser.h */,
+				49F1D58E13D31F2A00732456 /* ZExpParser.mm */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		49F1D57213D31EF700732456 /* Proj.4 */ = {
+			isa = PBXGroup;
+			children = (
+				49F1D59513D31F3D00732456 /* Proj.4.xcodeproj */,
+			);
+			name = Proj.4;
+			sourceTree = "<group>";
+		};
+		49F1D59613D31F3D00732456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F1D59D13D31F3E00732456 /* libProj_4.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49F1D4FF13D31D8800732456 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F1D57E13D31F1700732456 /* JSON.h in Headers */,
+				49E74B3013D37E4B00571412 /* Common.h in Headers */,
+				49E74B3213D37E4B00571412 /* ConnectionReachability.h in Headers */,
+				49E74B3413D37E4B00571412 /* constants.h in Headers */,
+				49E74B3513D37E4B00571412 /* InfoGetter.h in Headers */,
+				49E74B3A13D37E4B00571412 /* Reachability.h in Headers */,
+				49E74B4413D37E4B00571412 /* WMDataSource.h in Headers */,
+				49E74B4613D37E4B00571412 /* WMMapView.h in Headers */,
+				49E74B6413D37E5600571412 /* CoordConverter.h in Headers */,
+				49E74B6A13D37E5600571412 /* MapSourceDefinition.h in Headers */,
+				49E74B7113D37E5600571412 /* typeDefinitions.h in Headers */,
+				49E74B4813D37E4B00571412 /* WMMapViewProtocol.h in Headers */,
+				49E74B4913D37E4B00571412 /* WMSSource.h in Headers */,
+				49E74B3C13D37E4B00571412 /* TapDetectingView.h in Headers */,
+				49E74B3E13D37E4B00571412 /* TileDispatcher.h in Headers */,
+				49E74B4013D37E4B00571412 /* TiledScrollView.h in Headers */,
+				49E74B4213D37E4B00571412 /* TileView.h in Headers */,
+				49E74B3713D37E4B00571412 /* MapSource.h in Headers */,
+				49E74B3813D37E4B00571412 /* PositionView.h in Headers */,
+				49E74B6013D37E5600571412 /* AffineTransformation.h in Headers */,
+				49F1D57F13D31F1700732456 /* NSObject+SBJSON.h in Headers */,
+				49F1D58113D31F1700732456 /* NSString+SBJSON.h in Headers */,
+				49F1D58313D31F1700732456 /* SBJsonBase.h in Headers */,
+				49F1D58513D31F1700732456 /* SBJsonParser.h in Headers */,
+				49F1D58713D31F1700732456 /* SBJsonWriter.h in Headers */,
+				49F1D59113D31F2A00732456 /* GCMathParser.h in Headers */,
+				49F1D59313D31F2A00732456 /* ZExpParser.h in Headers */,
+				49E74B6213D37E5600571412 /* BilinearInterpolation.h in Headers */,
+				49E74B6613D37E5600571412 /* ExpressionWrapper.h in Headers */,
+				49E74B6813D37E5600571412 /* MapDefinitionParser.h in Headers */,
+				49E74B6C13D37E5600571412 /* Projection.h in Headers */,
+				49E74B6E13D37E5600571412 /* QueryFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49F1D50013D31D8800732456 /* WhateverMap_Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F1D50B13D31D8800732456 /* Build configuration list for PBXNativeTarget "WhateverMap_Framework" */;
+			buildPhases = (
+				49F1D4FD13D31D8800732456 /* Sources */,
+				49F1D4FE13D31D8800732456 /* Frameworks */,
+				49F1D4FF13D31D8800732456 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4906069E13E9E291007CA536 /* PBXTargetDependency */,
+			);
+			name = WhateverMap_Framework;
+			productName = WhateverMap_Framework;
+			productReference = 49F1D50113D31D8800732456 /* libWhateverMap_Framework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F1D4F813D31D8700732456 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 49F1D4FB13D31D8700732456 /* Build configuration list for PBXProject "WhateverMap_Framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49F1D4F613D31D8700732456;
+			productRefGroup = 49F1D50213D31D8800732456 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 49F1D59613D31F3D00732456 /* Products */;
+					ProjectRef = 49F1D59513D31F3D00732456 /* Proj.4.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				49F1D50013D31D8800732456 /* WhateverMap_Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		49F1D59D13D31F3E00732456 /* libProj_4.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libProj_4.a;
+			remoteRef = 49F1D59C13D31F3E00732456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F1D4FD13D31D8800732456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F1D58013D31F1700732456 /* NSObject+SBJSON.m in Sources */,
+				49F1D58213D31F1700732456 /* NSString+SBJSON.m in Sources */,
+				49F1D58413D31F1700732456 /* SBJsonBase.m in Sources */,
+				49F1D58613D31F1700732456 /* SBJsonParser.m in Sources */,
+				49F1D58813D31F1700732456 /* SBJsonWriter.m in Sources */,
+				49F1D59213D31F2A00732456 /* GCMathParser.m in Sources */,
+				49F1D59413D31F2A00732456 /* ZExpParser.mm in Sources */,
+				49E74B3113D37E4B00571412 /* Common.m in Sources */,
+				49E74B3313D37E4B00571412 /* ConnectionReachability.m in Sources */,
+				49E74B3613D37E4B00571412 /* InfoGetter.m in Sources */,
+				49E74B3913D37E4B00571412 /* PositionView.m in Sources */,
+				49E74B3B13D37E4B00571412 /* Reachability.m in Sources */,
+				49E74B3D13D37E4B00571412 /* TapDetectingView.m in Sources */,
+				49E74B3F13D37E4B00571412 /* TileDispatcher.m in Sources */,
+				49E74B4113D37E4B00571412 /* TiledScrollView.m in Sources */,
+				49E74B4313D37E4B00571412 /* TileView.m in Sources */,
+				49E74B4513D37E4B00571412 /* WMDataSource.m in Sources */,
+				49E74B4713D37E4B00571412 /* WMMapView.m in Sources */,
+				49E74B4A13D37E4B00571412 /* WMSSource.m in Sources */,
+				49E74B6113D37E5600571412 /* AffineTransformation.m in Sources */,
+				49E74B6313D37E5600571412 /* BilinearInterpolation.m in Sources */,
+				49E74B6513D37E5600571412 /* CoordConverter.m in Sources */,
+				49E74B6713D37E5600571412 /* ExpressionWrapper.m in Sources */,
+				49E74B6913D37E5600571412 /* MapDefinitionParser.m in Sources */,
+				49E74B6B13D37E5600571412 /* MapSourceDefinition.m in Sources */,
+				49E74B6D13D37E5600571412 /* Projection.m in Sources */,
+				49E74B6F13D37E5600571412 /* QueryFactory.m in Sources */,
+				49E74B7013D37E5600571412 /* typeDefinition.m in Sources */,
+				49255AD613D381B300DDFDCD /* MapSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4906069E13E9E291007CA536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Proj.4;
+			targetProxy = 4906069D13E9E291007CA536 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49F1D50913D31D8800732456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					LOG_TEXT_NO,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = IncludedProjects/Proj.4/src;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		49F1D50A13D31D8800732456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = IncludedProjects/Proj.4/src;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		49F1D50C13D31D8800732456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/WhateverMap_Framework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhateverMap_Framework/WhateverMap_Framework-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		49F1D50D13D31D8800732456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/WhateverMap_Framework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhateverMap_Framework/WhateverMap_Framework-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49F1D4FB13D31D8700732456 /* Build configuration list for PBXProject "WhateverMap_Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F1D50913D31D8800732456 /* Debug */,
+				49F1D50A13D31D8800732456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F1D50B13D31D8800732456 /* Build configuration list for PBXNativeTarget "WhateverMap_Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F1D50C13D31D8800732456 /* Debug */,
+				49F1D50D13D31D8800732456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49F1D4F813D31D8700732456 /* Project object */;
+}
