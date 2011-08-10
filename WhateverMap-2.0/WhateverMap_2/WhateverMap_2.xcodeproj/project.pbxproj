@@ -27,7 +27,6 @@
 		49443F0711575AC3001FB20E /* SourceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 49443F0611575AC3001FB20E /* SourceNode.m */; };
 		495B56E21253693600B9FF5C /* mendelu_anglicky_barevne_negativ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 495B56E11253693600B9FF5C /* mendelu_anglicky_barevne_negativ.jpg */; };
 		4961AF3D1287409F006313AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4961AF3B1287409F006313AF /* AppDelegate.m */; };
-		4963434D13D3516000420DFB /* libWhateverMap_Framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4963434C13D3516000420DFB /* libWhateverMap_Framework.a */; };
 		49722E0113BCA509003DA826 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49722E0013BCA509003DA826 /* MainWindow-iPad.xib */; };
 		49749B521039533B00370518 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49749B511039533B00370518 /* SystemConfiguration.framework */; };
 		49767363135377AF0024C513 /* icon_gps_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 4976735F135377AF0024C513 /* icon_gps_off.png */; };
@@ -38,6 +37,7 @@
 		4983169D124F6DE800E121D3 /* JSONdef-katastr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4983169C124F6DE800E121D3 /* JSONdef-katastr.txt */; };
 		498A9EF41259AF6F006901D5 /* ShakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A9EF31259AF6F006901D5 /* ShakeView.m */; };
 		4992DEF012B945DF00CC7250 /* GeoNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 4992DEEF12B945DF00CC7250 /* GeoNames.m */; };
+		4996390E13F32AE00033C147 /* libWhateverMap_Framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4996390D13F32AE00033C147 /* libWhateverMap_Framework.a */; };
 		4999AB0F124E4960000F1606 /* FavouriteTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4999AB0E124E4960000F1606 /* FavouriteTableViewController.xib */; };
 		4999AB12124E49A8000F1606 /* FavouriteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4999AB11124E49A8000F1606 /* FavouriteTableViewController.m */; };
 		49A3E4BA124E697600639340 /* DetailCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A3E4B9124E697600639340 /* DetailCustomCell.m */; };
@@ -93,7 +93,7 @@
 			remoteGlobalIDString = 49F1D50113D31D8800732456;
 			remoteInfo = WhateverMap_Framework;
 		};
-		4963434613D339E200420DFB /* PBXContainerItemProxy */ = {
+		49EC975213F31E8A00F36018 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4963433813D339A900420DFB /* WhateverMap_Framework.xcodeproj */;
 			proxyType = 1;
@@ -146,7 +146,6 @@
 		4961AF3A1287409F006313AF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4961AF3B1287409F006313AF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4963433813D339A900420DFB /* WhateverMap_Framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WhateverMap_Framework.xcodeproj; path = ../../../WhateverMap_Framework/WhateverMap_Framework.xcodeproj; sourceTree = "<group>"; };
-		4963434C13D3516000420DFB /* libWhateverMap_Framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libWhateverMap_Framework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		49722E0013BCA509003DA826 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 		49749B511039533B00370518 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4976735F135377AF0024C513 /* icon_gps_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_gps_off.png; path = Images/button_icon/icon_gps_off.png; sourceTree = "<group>"; };
@@ -165,6 +164,7 @@
 		49955A7013D176100021694A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		49955A7313D1761F0021694A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		49955A7513D1762C0021694A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4996390D13F32AE00033C147 /* libWhateverMap_Framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libWhateverMap_Framework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4999AB0E124E4960000F1606 /* FavouriteTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteTableViewController.xib; sourceTree = "<group>"; };
 		4999AB10124E49A8000F1606 /* FavouriteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouriteTableViewController.h; sourceTree = "<group>"; };
 		4999AB11124E49A8000F1606 /* FavouriteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouriteTableViewController.m; sourceTree = "<group>"; };
@@ -237,7 +237,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4963434D13D3516000420DFB /* libWhateverMap_Framework.a in Frameworks */,
+				4996390E13F32AE00033C147 /* libWhateverMap_Framework.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -272,6 +272,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				4996390D13F32AE00033C147 /* libWhateverMap_Framework.a */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -305,7 +306,6 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4963434C13D3516000420DFB /* libWhateverMap_Framework.a */,
 				49FFFE1213D31B5D0091F7FF /* CFNetwork.framework */,
 				49FFFE0A13D31B370091F7FF /* CoreGraphics.framework */,
 				49FFFE0B13D31B370091F7FF /* QuartzCore.framework */,
@@ -589,7 +589,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4963434713D339E200420DFB /* PBXTargetDependency */,
+				49EC975313F31E8A00F36018 /* PBXTargetDependency */,
 			);
 			name = WhateverMap_2;
 			productName = Tiling;
@@ -727,10 +727,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4963434713D339E200420DFB /* PBXTargetDependency */ = {
+		49EC975313F31E8A00F36018 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WhateverMap_Framework;
-			targetProxy = 4963434613D339E200420DFB /* PBXContainerItemProxy */;
+			targetProxy = 49EC975213F31E8A00F36018 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -746,10 +746,14 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WhateverMap_2_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../../WhateverMap_Framework/**";
 				INFOPLIST_FILE = WhateverMap_2.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				OBJROOT = build;
 				PRODUCT_NAME = WhateverMap_2;
 				PROVISIONING_PROFILE = "";
@@ -768,10 +772,14 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WhateverMap_2_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../../WhateverMap_Framework/**";
 				INFOPLIST_FILE = WhateverMap_2.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				OBJROOT = build;
 				PRODUCT_NAME = WhateverMap_2;
 				PROVISIONING_PROFILE = "";
@@ -814,10 +822,14 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WhateverMap_2_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../../WhateverMap_Framework/**";
 				INFOPLIST_FILE = WhateverMap_2.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				OBJROOT = build;
 				PRODUCT_NAME = WhateverMap_2;
 				PROVISIONING_PROFILE = "";
@@ -860,10 +872,14 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WhateverMap_2_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../../WhateverMap_Framework/**";
 				INFOPLIST_FILE = WhateverMap_2.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				OBJROOT = build;
 				PRODUCT_NAME = WhateverMap_2;
 				PROVISIONING_PROFILE = "";
