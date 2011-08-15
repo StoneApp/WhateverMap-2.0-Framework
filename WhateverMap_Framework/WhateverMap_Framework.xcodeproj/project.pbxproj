@@ -15,77 +15,70 @@
 		49255A9C13D3807400DDFDCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49255A9613D3807400DDFDCD /* UIKit.framework */; };
 		49255AD613D381B300DDFDCD /* MapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 49255AD513D381B300DDFDCD /* MapSource.m */; };
 		4935CA9D13EB32F500998A23 /* libProj_4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4935CA9C13EB32F500998A23 /* libProj_4.a */; };
-		49E74B3013D37E4B00571412 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1513D37E4B00571412 /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B3013D37E4B00571412 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1513D37E4B00571412 /* Common.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B3113D37E4B00571412 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B1613D37E4B00571412 /* Common.m */; };
-		49E74B3213D37E4B00571412 /* ConnectionReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1713D37E4B00571412 /* ConnectionReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B3213D37E4B00571412 /* ConnectionReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1713D37E4B00571412 /* ConnectionReachability.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B3313D37E4B00571412 /* ConnectionReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B1813D37E4B00571412 /* ConnectionReachability.m */; };
-		49E74B3413D37E4B00571412 /* constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1913D37E4B00571412 /* constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49E74B3513D37E4B00571412 /* InfoGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1A13D37E4B00571412 /* InfoGetter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B3413D37E4B00571412 /* constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1913D37E4B00571412 /* constants.h */; settings = {ATTRIBUTES = (); }; };
+		49E74B3513D37E4B00571412 /* InfoGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1A13D37E4B00571412 /* InfoGetter.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B3613D37E4B00571412 /* InfoGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B1B13D37E4B00571412 /* InfoGetter.m */; };
-		49E74B3713D37E4B00571412 /* MapSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1C13D37E4B00571412 /* MapSource.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		49E74B3813D37E4B00571412 /* PositionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1D13D37E4B00571412 /* PositionView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B3713D37E4B00571412 /* MapSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1C13D37E4B00571412 /* MapSource.h */; settings = {ATTRIBUTES = (); }; };
+		49E74B3813D37E4B00571412 /* PositionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1D13D37E4B00571412 /* PositionView.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B3913D37E4B00571412 /* PositionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B1E13D37E4B00571412 /* PositionView.m */; };
-		49E74B3A13D37E4B00571412 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1F13D37E4B00571412 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B3A13D37E4B00571412 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B1F13D37E4B00571412 /* Reachability.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B3B13D37E4B00571412 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2013D37E4B00571412 /* Reachability.m */; };
-		49E74B3C13D37E4B00571412 /* TapDetectingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2113D37E4B00571412 /* TapDetectingView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B3C13D37E4B00571412 /* TapDetectingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2113D37E4B00571412 /* TapDetectingView.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B3D13D37E4B00571412 /* TapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2213D37E4B00571412 /* TapDetectingView.m */; };
-		49E74B3E13D37E4B00571412 /* TileDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2313D37E4B00571412 /* TileDispatcher.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B3E13D37E4B00571412 /* TileDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2313D37E4B00571412 /* TileDispatcher.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B3F13D37E4B00571412 /* TileDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2413D37E4B00571412 /* TileDispatcher.m */; };
-		49E74B4013D37E4B00571412 /* TiledScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2513D37E4B00571412 /* TiledScrollView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B4013D37E4B00571412 /* TiledScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2513D37E4B00571412 /* TiledScrollView.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B4113D37E4B00571412 /* TiledScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2613D37E4B00571412 /* TiledScrollView.m */; };
-		49E74B4213D37E4B00571412 /* TileView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2713D37E4B00571412 /* TileView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B4213D37E4B00571412 /* TileView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2713D37E4B00571412 /* TileView.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B4313D37E4B00571412 /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2813D37E4B00571412 /* TileView.m */; };
-		49E74B4413D37E4B00571412 /* WMDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2913D37E4B00571412 /* WMDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B4413D37E4B00571412 /* WMDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2913D37E4B00571412 /* WMDataSource.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B4513D37E4B00571412 /* WMDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2A13D37E4B00571412 /* WMDataSource.m */; };
-		49E74B4613D37E4B00571412 /* WMMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2B13D37E4B00571412 /* WMMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B4613D37E4B00571412 /* WMMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2B13D37E4B00571412 /* WMMapView.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B4713D37E4B00571412 /* WMMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2C13D37E4B00571412 /* WMMapView.m */; };
-		49E74B4813D37E4B00571412 /* WMMapViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2D13D37E4B00571412 /* WMMapViewProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		49E74B4913D37E4B00571412 /* WMSSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2E13D37E4B00571412 /* WMSSource.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B4813D37E4B00571412 /* WMMapViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2D13D37E4B00571412 /* WMMapViewProtocol.h */; settings = {ATTRIBUTES = (); }; };
+		49E74B4913D37E4B00571412 /* WMSSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B2E13D37E4B00571412 /* WMSSource.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B4A13D37E4B00571412 /* WMSSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B2F13D37E4B00571412 /* WMSSource.m */; };
-		49E74B6013D37E5600571412 /* AffineTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B4B13D37E5600571412 /* AffineTransformation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B6013D37E5600571412 /* AffineTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B4B13D37E5600571412 /* AffineTransformation.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B6113D37E5600571412 /* AffineTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B4C13D37E5600571412 /* AffineTransformation.m */; };
-		49E74B6213D37E5600571412 /* BilinearInterpolation.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B4D13D37E5600571412 /* BilinearInterpolation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B6213D37E5600571412 /* BilinearInterpolation.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B4D13D37E5600571412 /* BilinearInterpolation.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B6313D37E5600571412 /* BilinearInterpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B4E13D37E5600571412 /* BilinearInterpolation.m */; };
-		49E74B6413D37E5600571412 /* CoordConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B4F13D37E5600571412 /* CoordConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B6413D37E5600571412 /* CoordConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B4F13D37E5600571412 /* CoordConverter.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B6513D37E5600571412 /* CoordConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5013D37E5600571412 /* CoordConverter.m */; };
-		49E74B6613D37E5600571412 /* ExpressionWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5113D37E5600571412 /* ExpressionWrapper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B6613D37E5600571412 /* ExpressionWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5113D37E5600571412 /* ExpressionWrapper.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B6713D37E5600571412 /* ExpressionWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5213D37E5600571412 /* ExpressionWrapper.m */; };
-		49E74B6813D37E5600571412 /* MapDefinitionParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5413D37E5600571412 /* MapDefinitionParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B6813D37E5600571412 /* MapDefinitionParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5413D37E5600571412 /* MapDefinitionParser.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B6913D37E5600571412 /* MapDefinitionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5513D37E5600571412 /* MapDefinitionParser.m */; };
-		49E74B6A13D37E5600571412 /* MapSourceDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5613D37E5600571412 /* MapSourceDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B6A13D37E5600571412 /* MapSourceDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5613D37E5600571412 /* MapSourceDefinition.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B6B13D37E5600571412 /* MapSourceDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5713D37E5600571412 /* MapSourceDefinition.m */; };
-		49E74B6C13D37E5600571412 /* Projection.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5813D37E5600571412 /* Projection.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B6C13D37E5600571412 /* Projection.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5813D37E5600571412 /* Projection.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B6D13D37E5600571412 /* Projection.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5913D37E5600571412 /* Projection.m */; };
-		49E74B6E13D37E5600571412 /* QueryFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5A13D37E5600571412 /* QueryFactory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49E74B6E13D37E5600571412 /* QueryFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5A13D37E5600571412 /* QueryFactory.h */; settings = {ATTRIBUTES = (); }; };
 		49E74B6F13D37E5600571412 /* QueryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5B13D37E5600571412 /* QueryFactory.m */; };
 		49E74B7013D37E5600571412 /* typeDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E74B5E13D37E5600571412 /* typeDefinition.m */; };
-		49E74B7113D37E5600571412 /* typeDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5F13D37E5600571412 /* typeDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E74B7113D37E5600571412 /* typeDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74B5F13D37E5600571412 /* typeDefinitions.h */; settings = {ATTRIBUTES = (); }; };
 		49F1D50513D31D8800732456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F1D50413D31D8800732456 /* Foundation.framework */; };
-		49F1D57E13D31F1700732456 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57313D31F1700732456 /* JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49F1D57F13D31F1700732456 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57413D31F1700732456 /* NSObject+SBJSON.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D57E13D31F1700732456 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57313D31F1700732456 /* JSON.h */; settings = {ATTRIBUTES = (); }; };
+		49F1D57F13D31F1700732456 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57413D31F1700732456 /* NSObject+SBJSON.h */; settings = {ATTRIBUTES = (); }; };
 		49F1D58013D31F1700732456 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D57513D31F1700732456 /* NSObject+SBJSON.m */; };
-		49F1D58113D31F1700732456 /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57613D31F1700732456 /* NSString+SBJSON.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D58113D31F1700732456 /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57613D31F1700732456 /* NSString+SBJSON.h */; settings = {ATTRIBUTES = (); }; };
 		49F1D58213D31F1700732456 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D57713D31F1700732456 /* NSString+SBJSON.m */; };
-		49F1D58313D31F1700732456 /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57813D31F1700732456 /* SBJsonBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D58313D31F1700732456 /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57813D31F1700732456 /* SBJsonBase.h */; settings = {ATTRIBUTES = (); }; };
 		49F1D58413D31F1700732456 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D57913D31F1700732456 /* SBJsonBase.m */; };
-		49F1D58513D31F1700732456 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57A13D31F1700732456 /* SBJsonParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D58513D31F1700732456 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57A13D31F1700732456 /* SBJsonParser.h */; settings = {ATTRIBUTES = (); }; };
 		49F1D58613D31F1700732456 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D57B13D31F1700732456 /* SBJsonParser.m */; };
-		49F1D58713D31F1700732456 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57C13D31F1700732456 /* SBJsonWriter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D58713D31F1700732456 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D57C13D31F1700732456 /* SBJsonWriter.h */; settings = {ATTRIBUTES = (); }; };
 		49F1D58813D31F1700732456 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D57D13D31F1700732456 /* SBJsonWriter.m */; };
-		49F1D59113D31F2A00732456 /* GCMathParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D58B13D31F2A00732456 /* GCMathParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D59113D31F2A00732456 /* GCMathParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D58B13D31F2A00732456 /* GCMathParser.h */; settings = {ATTRIBUTES = (); }; };
 		49F1D59213D31F2A00732456 /* GCMathParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D58C13D31F2A00732456 /* GCMathParser.m */; };
-		49F1D59313D31F2A00732456 /* ZExpParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D58D13D31F2A00732456 /* ZExpParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49F1D59313D31F2A00732456 /* ZExpParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1D58D13D31F2A00732456 /* ZExpParser.h */; settings = {ATTRIBUTES = (); }; };
 		49F1D59413D31F2A00732456 /* ZExpParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49F1D58E13D31F2A00732456 /* ZExpParser.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4906069D13E9E291007CA536 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49F1D59513D31F3D00732456 /* Proj.4.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = Proj.4;
-		};
 		49F1D59C13D31F3E00732456 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 49F1D59513D31F3D00732456 /* Proj.4.xcodeproj */;
@@ -374,13 +367,6 @@
 				49E74B3013D37E4B00571412 /* Common.h in Headers */,
 				49E74B3213D37E4B00571412 /* ConnectionReachability.h in Headers */,
 				49E74B3413D37E4B00571412 /* constants.h in Headers */,
-				49E74B3513D37E4B00571412 /* InfoGetter.h in Headers */,
-				49E74B3A13D37E4B00571412 /* Reachability.h in Headers */,
-				49E74B4413D37E4B00571412 /* WMDataSource.h in Headers */,
-				49E74B4613D37E4B00571412 /* WMMapView.h in Headers */,
-				49E74B6413D37E5600571412 /* CoordConverter.h in Headers */,
-				49E74B6A13D37E5600571412 /* MapSourceDefinition.h in Headers */,
-				49E74B7113D37E5600571412 /* typeDefinitions.h in Headers */,
 				49E74B4813D37E4B00571412 /* WMMapViewProtocol.h in Headers */,
 				49E74B4913D37E4B00571412 /* WMSSource.h in Headers */,
 				49E74B3C13D37E4B00571412 /* TapDetectingView.h in Headers */,
@@ -402,6 +388,13 @@
 				49E74B6813D37E5600571412 /* MapDefinitionParser.h in Headers */,
 				49E74B6C13D37E5600571412 /* Projection.h in Headers */,
 				49E74B6E13D37E5600571412 /* QueryFactory.h in Headers */,
+				49E74B3513D37E4B00571412 /* InfoGetter.h in Headers */,
+				49E74B3A13D37E4B00571412 /* Reachability.h in Headers */,
+				49E74B4413D37E4B00571412 /* WMDataSource.h in Headers */,
+				49E74B4613D37E4B00571412 /* WMMapView.h in Headers */,
+				49E74B6413D37E5600571412 /* CoordConverter.h in Headers */,
+				49E74B6A13D37E5600571412 /* MapSourceDefinition.h in Headers */,
+				49E74B7113D37E5600571412 /* typeDefinitions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +412,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				4906069E13E9E291007CA536 /* PBXTargetDependency */,
 			);
 			name = WhateverMap_Framework;
 			productName = WhateverMap_Framework;
@@ -503,15 +495,84 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		4906069E13E9E291007CA536 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Proj.4;
-			targetProxy = 4906069D13E9E291007CA536 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
+		499AFDA113F544A70037C908 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = IncludedProjects/Proj.4/src;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LD_OPENMP_FLAGS = "-fopenmp";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Distribution;
+		};
+		499AFDA213F544A70037C908 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/WhateverMap_Framework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhateverMap_Framework/WhateverMap_Framework-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(TARGET_TEMP_DIR)/UninstalledProducts";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = "$(BUILD_DIR)/WhateverMap_Framework_build";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Distribution;
+		};
+		499AFDA313F544AE0037C908 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = IncludedProjects/Proj.4/src;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LD_OPENMP_FLAGS = "-fopenmp";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = "Ad Hoc";
+		};
+		499AFDA413F544AE0037C908 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/WhateverMap_Framework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhateverMap_Framework/WhateverMap_Framework-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(TARGET_TEMP_DIR)/UninstalledProducts";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = "Ad Hoc";
+		};
 		49F1D50913D31D8800732456 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -532,6 +593,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -550,6 +612,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
@@ -562,6 +625,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhateverMap_Framework/WhateverMap_Framework-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -580,12 +644,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhateverMap_Framework/WhateverMap_Framework-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = "$(BUILD_DIR)/WhateverMap_Framework_build";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
@@ -598,18 +664,22 @@
 			buildConfigurations = (
 				49F1D50913D31D8800732456 /* Debug */,
 				49F1D50A13D31D8800732456 /* Release */,
+				499AFDA313F544AE0037C908 /* Ad Hoc */,
+				499AFDA113F544A70037C908 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Ad Hoc";
 		};
 		49F1D50B13D31D8800732456 /* Build configuration list for PBXNativeTarget "WhateverMap_Framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49F1D50C13D31D8800732456 /* Debug */,
 				49F1D50D13D31D8800732456 /* Release */,
+				499AFDA413F544AE0037C908 /* Ad Hoc */,
+				499AFDA213F544A70037C908 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Ad Hoc";
 		};
 /* End XCConfigurationList section */
 	};

@@ -37,7 +37,28 @@
 		4983169D124F6DE800E121D3 /* JSONdef-katastr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4983169C124F6DE800E121D3 /* JSONdef-katastr.txt */; };
 		498A9EF41259AF6F006901D5 /* ShakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A9EF31259AF6F006901D5 /* ShakeView.m */; };
 		4992DEF012B945DF00CC7250 /* GeoNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 4992DEEF12B945DF00CC7250 /* GeoNames.m */; };
-		4996390E13F32AE00033C147 /* libWhateverMap_Framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4996390D13F32AE00033C147 /* libWhateverMap_Framework.a */; };
+		4996391013F5364E0033C147 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4996390F13F5364E0033C147 /* Entitlements.plist */; };
+		4996391213F539E60033C147 /* libWhateverMap_Framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4996391113F539E60033C147 /* libWhateverMap_Framework.a */; };
+		4996391313F53E260033C147 /* ParserJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E74ABC13D3557500571412 /* ParserJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996391413F53E260033C147 /* SourceData.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DB600810F66C7200D11658 /* SourceData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996391513F53E260033C147 /* SourceNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 49443F0511575AC3001FB20E /* SourceNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996391613F53E260033C147 /* StorageManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E7E16B124656C400644E12 /* StorageManagement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996391713F53E260033C147 /* MovementHistory.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B8DB5B1269D3880082DA56 /* MovementHistory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996391813F53E260033C147 /* GeoNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 4992DEEE12B945DF00CC7250 /* GeoNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996391913F53E260033C147 /* Locator.h in Headers */ = {isa = PBXBuildFile; fileRef = 493E1C44115B511E000EC6FC /* Locator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996391A13F53E260033C147 /* DetailTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 49EDD7E3124FC1B1006FB9E7 /* DetailTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996391B13F53E260033C147 /* DetailCustomCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A3E4B8124E697600639340 /* DetailCustomCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996391C13F53E260033C147 /* CustomUISlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 49233F3B124F411200DD3848 /* CustomUISlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996391D13F53E260033C147 /* FavouriteTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4999AB10124E49A8000F1606 /* FavouriteTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996391E13F53E260033C147 /* SourceTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CCF2FB11580BC7003EB7B4 /* SourceTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996391F13F53E260033C147 /* InfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C7D6B910C167B00022B79A /* InfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996392013F53E260033C147 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4961AF3A1287409F006313AF /* AppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996392113F53E260033C147 /* MapUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A587F51258BF1000D99338 /* MapUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996392213F53E260033C147 /* ShakeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A9EF21259AF6F006901D5 /* ShakeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996392313F53E260033C147 /* MapController.h in Headers */ = {isa = PBXBuildFile; fileRef = C93B58DE0FCB528700860E6A /* MapController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996392413F53E260033C147 /* MapControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 493E1C61115B5806000EC6FC /* MapControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996392513F53E260033C147 /* SearchBarDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 49FB685A1243C71300B1BCD8 /* SearchBarDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4996392613F53E260033C147 /* NavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D3947E1350DC1700416875 /* NavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4999AB0F124E4960000F1606 /* FavouriteTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4999AB0E124E4960000F1606 /* FavouriteTableViewController.xib */; };
 		4999AB12124E49A8000F1606 /* FavouriteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4999AB11124E49A8000F1606 /* FavouriteTableViewController.m */; };
 		49A3E4BA124E697600639340 /* DetailCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A3E4B9124E697600639340 /* DetailCustomCell.m */; };
@@ -91,13 +112,6 @@
 			containerPortal = 4963433813D339A900420DFB /* WhateverMap_Framework.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 49F1D50113D31D8800732456;
-			remoteInfo = WhateverMap_Framework;
-		};
-		49EC975213F31E8A00F36018 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4963433813D339A900420DFB /* WhateverMap_Framework.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 49F1D50013D31D8800732456;
 			remoteInfo = WhateverMap_Framework;
 		};
 /* End PBXContainerItemProxy section */
@@ -164,7 +178,8 @@
 		49955A7013D176100021694A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		49955A7313D1761F0021694A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		49955A7513D1762C0021694A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		4996390D13F32AE00033C147 /* libWhateverMap_Framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libWhateverMap_Framework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4996390F13F5364E0033C147 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		4996391113F539E60033C147 /* libWhateverMap_Framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = libWhateverMap_Framework.a; path = "/Users/jirka/Library/Developer/Xcode/DerivedData/WhateverMap_2-djilsmxbxxetkrctkxugvgsdqaas/Build/Products/Release-iphoneos/libWhateverMap_Framework.a"; sourceTree = "<absolute>"; };
 		4999AB0E124E4960000F1606 /* FavouriteTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteTableViewController.xib; sourceTree = "<group>"; };
 		4999AB10124E49A8000F1606 /* FavouriteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouriteTableViewController.h; sourceTree = "<group>"; };
 		4999AB11124E49A8000F1606 /* FavouriteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouriteTableViewController.m; sourceTree = "<group>"; };
@@ -237,7 +252,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4996390E13F32AE00033C147 /* libWhateverMap_Framework.a in Frameworks */,
+				4996391213F539E60033C147 /* libWhateverMap_Framework.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -272,7 +287,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				4996390D13F32AE00033C147 /* libWhateverMap_Framework.a */,
+				4996391113F539E60033C147 /* libWhateverMap_Framework.a */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -299,6 +314,7 @@
 				49FBDC8A123FFDA800D2FA02 /* CatalogFiles */,
 				49C7D0B810BD53690022B79A /* Images */,
 				49FA718B12721DBD00699666 /* Settings.bundle */,
+				4996390F13F5364E0033C147 /* Entitlements.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -576,6 +592,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4996392713F53FCE0033C147 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4996391313F53E260033C147 /* ParserJSON.h in Headers */,
+				4996391413F53E260033C147 /* SourceData.h in Headers */,
+				4996391513F53E260033C147 /* SourceNode.h in Headers */,
+				4996391613F53E260033C147 /* StorageManagement.h in Headers */,
+				4996391713F53E260033C147 /* MovementHistory.h in Headers */,
+				4996391813F53E260033C147 /* GeoNames.h in Headers */,
+				4996391913F53E260033C147 /* Locator.h in Headers */,
+				4996391A13F53E260033C147 /* DetailTableViewController.h in Headers */,
+				4996391B13F53E260033C147 /* DetailCustomCell.h in Headers */,
+				4996391C13F53E260033C147 /* CustomUISlider.h in Headers */,
+				4996391D13F53E260033C147 /* FavouriteTableViewController.h in Headers */,
+				4996391E13F53E260033C147 /* SourceTableViewController.h in Headers */,
+				4996391F13F53E260033C147 /* InfoViewController.h in Headers */,
+				4996392013F53E260033C147 /* AppDelegate.h in Headers */,
+				4996392113F53E260033C147 /* MapUI.h in Headers */,
+				4996392213F53E260033C147 /* ShakeView.h in Headers */,
+				4996392313F53E260033C147 /* MapController.h in Headers */,
+				4996392413F53E260033C147 /* MapControllerProtocol.h in Headers */,
+				4996392513F53E260033C147 /* SearchBarDelegate.h in Headers */,
+				4996392613F53E260033C147 /* NavigationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		1D6058900D05DD3D006BFB54 /* WhateverMap_2 */ = {
 			isa = PBXNativeTarget;
@@ -585,11 +631,11 @@
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				49D394E610B5DE3F0079EE30 /* CopyFiles */,
+				4996392713F53FCE0033C147 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				49EC975313F31E8A00F36018 /* PBXTargetDependency */,
 			);
 			name = WhateverMap_2;
 			productName = Tiling;
@@ -690,6 +736,7 @@
 				492EB03B1356453C004BA6F4 /* Icon.png in Resources */,
 				492EB03E1356453C004BA6F4 /* Icon@2x.png in Resources */,
 				49722E0113BCA509003DA826 /* MainWindow-iPad.xib in Resources */,
+				4996391013F5364E0033C147 /* Entitlements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,19 +773,12 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		49EC975313F31E8A00F36018 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WhateverMap_Framework;
-			targetProxy = 49EC975213F31E8A00F36018 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -746,13 +786,14 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WhateverMap_2_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = 4.2;
 				HEADER_SEARCH_PATHS = "../../WhateverMap_Framework/**";
 				INFOPLIST_FILE = WhateverMap_2.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../../../../Library/Developer/Xcode/DerivedData/WhateverMap_2-djilsmxbxxetkrctkxugvgsdqaas/Build/Products/Release-iphoneos\"",
 				);
 				OBJROOT = build;
 				PRODUCT_NAME = WhateverMap_2;
@@ -767,18 +808,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WhateverMap_2_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = 4.2;
 				HEADER_SEARCH_PATHS = "../../WhateverMap_Framework/**";
 				INFOPLIST_FILE = WhateverMap_2.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../../../../Library/Developer/Xcode/DerivedData/WhateverMap_2-djilsmxbxxetkrctkxugvgsdqaas/Build/Products/Release-iphoneos\"",
 				);
 				OBJROOT = build;
 				PRODUCT_NAME = WhateverMap_2;
@@ -795,10 +838,11 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/MyLibBuildDir";
 				New_Setting = "";
 				OBJROOT = build;
 				ONLY_ACTIVE_ARCH = NO;
@@ -817,18 +861,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WhateverMap_2_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = 4.2;
 				HEADER_SEARCH_PATHS = "../../WhateverMap_Framework/**";
 				INFOPLIST_FILE = WhateverMap_2.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../../../../Library/Developer/Xcode/DerivedData/WhateverMap_2-djilsmxbxxetkrctkxugvgsdqaas/Build/Products/Release-iphoneos\"",
 				);
 				OBJROOT = build;
 				PRODUCT_NAME = WhateverMap_2;
@@ -843,12 +889,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/MyLibBuildDir";
 				New_Setting = "";
 				OBJROOT = build;
 				ONLY_ACTIVE_ARCH = NO;
@@ -867,22 +915,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WhateverMap_2_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = 4.2;
 				HEADER_SEARCH_PATHS = "../../WhateverMap_Framework/**";
 				INFOPLIST_FILE = WhateverMap_2.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../../../../Library/Developer/Xcode/DerivedData/WhateverMap_2-djilsmxbxxetkrctkxugvgsdqaas/Build/Products/Release-iphoneos\"",
 				);
 				OBJROOT = build;
 				PRODUCT_NAME = WhateverMap_2;
 				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
 				SYMROOT = build;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -896,10 +947,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/MyLibBuildDir";
 				New_Setting = "";
 				OBJROOT = build;
 				ONLY_ACTIVE_ARCH = NO;
@@ -925,10 +977,11 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/MyLibBuildDir";
 				New_Setting = "";
 				OBJROOT = build;
 				ONLY_ACTIVE_ARCH = NO;

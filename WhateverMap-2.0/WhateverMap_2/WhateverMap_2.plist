@@ -13,7 +13,7 @@
 	<key>CFBundleIconFile</key>
 	<string>Icon.png</string>
 	<key>CFBundleIdentifier</key>
-	<string>cz.mendelu.WhateverMap</string>
+	<string>com.stoneapp.wm2</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -28,7 +28,7 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string>cz.mendelu.tile</string>
+			<string>com.stoneapp.wm2</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>ikatastr</string>
@@ -37,21 +37,21 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>4</string>
+	<key>get-task-allow</key>
+	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>New item</key>
+	<string></string>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
 	<key>NSMainNibFile~ipad</key>
 	<string>MainWindow-iPad</string>
-	<key>New item</key>
-	<string></string>
 	<key>UIApplicationExitsOnSuspend</key>
 	<false/>
 	<key>UIPrerenderedIcon</key>
 	<true/>
 	<key>UIStatusBarHidden</key>
 	<true/>
-	<key>get-task-allow</key>
-	<false/>
 </dict>
 </plist>

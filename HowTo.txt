@@ -17,7 +17,11 @@ How To Use WhateverMap Framework
    - init your own WMMapView object with frame and add it to your view   
    - set MapDelegate
    - set WMDataSource (you can use default constructor "initWithDefaultDefinition" with sample initialization)
-   
+
+//warning sometimes may not be possible to generate .ipa 
+
+
+If you are experiencing problems with building the source code and receiving something as lWhateverMap_Framework missing as linker error. Try to watch your libWhateverMap_Framework.a in project. If it is marked as missing (red color) try to go into project WhateverMap_2 / target WhateverMap_2 / Build Phases / Link Binary With Libraries and then remove and add libWhateverMap_Framework.a. Than Try to build the project again.
   
 //Copyright 2011 Jiří Kamínek / Mendel University in Brno - kaminek.jiri@stoneapp.com
 //

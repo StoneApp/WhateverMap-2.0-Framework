@@ -14,21 +14,21 @@
 		499E4D9610BA668100C39606 /* biveval.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4CF210BA668100C39606 /* biveval.c */; };
 		499E4D9810BA668100C39606 /* dmstor.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4CF410BA668100C39606 /* dmstor.c */; };
 		499E4D9910BA668100C39606 /* emess.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4CF510BA668100C39606 /* emess.c */; };
-		499E4D9A10BA668100C39606 /* emess.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4CF610BA668100C39606 /* emess.h */; };
+		499E4D9A10BA668100C39606 /* emess.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4CF610BA668100C39606 /* emess.h */; settings = {ATTRIBUTES = (); }; };
 		499E4D9B10BA668100C39606 /* gen_cheb.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4CF710BA668100C39606 /* gen_cheb.c */; };
 		499E4D9C10BA668100C39606 /* geocent.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4CF810BA668100C39606 /* geocent.c */; };
-		499E4D9D10BA668100C39606 /* geocent.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4CF910BA668100C39606 /* geocent.h */; };
+		499E4D9D10BA668100C39606 /* geocent.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4CF910BA668100C39606 /* geocent.h */; settings = {ATTRIBUTES = (); }; };
 		499E4D9E10BA668100C39606 /* geod_for.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4CFA10BA668100C39606 /* geod_for.c */; };
 		499E4D9F10BA668100C39606 /* geod_inv.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4CFB10BA668100C39606 /* geod_inv.c */; };
 		499E4DA010BA668100C39606 /* geod_set.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4CFC10BA668100C39606 /* geod_set.c */; };
-		499E4DA210BA668100C39606 /* geodesic.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4CFE10BA668100C39606 /* geodesic.h */; };
+		499E4DA210BA668100C39606 /* geodesic.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4CFE10BA668100C39606 /* geodesic.h */; settings = {ATTRIBUTES = (); }; };
 		499E4DA310BA668100C39606 /* jniproj.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4CFF10BA668100C39606 /* jniproj.c */; };
 		499E4DA410BA668100C39606 /* mk_cheby.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D0310BA668100C39606 /* mk_cheby.c */; };
 		499E4DA510BA668100C39606 /* nad_cvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D0410BA668100C39606 /* nad_cvt.c */; };
 		499E4DA610BA668100C39606 /* nad_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D0510BA668100C39606 /* nad_init.c */; };
 		499E4DA710BA668100C39606 /* nad_intr.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D0610BA668100C39606 /* nad_intr.c */; };
-		499E4DA810BA668100C39606 /* nad_list.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4D0710BA668100C39606 /* nad_list.h */; };
-		499E4DAB10BA668100C39606 /* org_proj4_Projections.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4D0A10BA668100C39606 /* org_proj4_Projections.h */; };
+		499E4DA810BA668100C39606 /* nad_list.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4D0710BA668100C39606 /* nad_list.h */; settings = {ATTRIBUTES = (); }; };
+		499E4DAB10BA668100C39606 /* org_proj4_Projections.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4D0A10BA668100C39606 /* org_proj4_Projections.h */; settings = {ATTRIBUTES = (); }; };
 		499E4DAC10BA668100C39606 /* p_series.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D0B10BA668100C39606 /* p_series.c */; };
 		499E4DAD10BA668100C39606 /* PJ_aea.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D0C10BA668100C39606 /* PJ_aea.c */; };
 		499E4DAE10BA668100C39606 /* PJ_aeqd.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D0D10BA668100C39606 /* PJ_aeqd.c */; };
@@ -92,7 +92,7 @@
 		499E4DE810BA668100C39606 /* PJ_lcc.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D4710BA668100C39606 /* PJ_lcc.c */; };
 		499E4DE910BA668100C39606 /* PJ_lcca.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D4810BA668100C39606 /* PJ_lcca.c */; };
 		499E4DEA10BA668100C39606 /* pj_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D4910BA668100C39606 /* pj_list.c */; };
-		499E4DEB10BA668100C39606 /* pj_list.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4D4A10BA668100C39606 /* pj_list.h */; };
+		499E4DEB10BA668100C39606 /* pj_list.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4D4A10BA668100C39606 /* pj_list.h */; settings = {ATTRIBUTES = (); }; };
 		499E4DEC10BA668100C39606 /* PJ_loxim.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D4B10BA668100C39606 /* PJ_loxim.c */; };
 		499E4DED10BA668100C39606 /* PJ_lsat.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D4C10BA668100C39606 /* PJ_lsat.c */; };
 		499E4DEE10BA668100C39606 /* pj_malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D4D10BA668100C39606 /* pj_malloc.c */; };
@@ -155,14 +155,14 @@
 		499E4E2710BA668100C39606 /* PJ_wink1.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D8610BA668100C39606 /* PJ_wink1.c */; };
 		499E4E2810BA668100C39606 /* PJ_wink2.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D8710BA668100C39606 /* PJ_wink2.c */; };
 		499E4E2910BA668100C39606 /* pj_zpoly1.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D8810BA668100C39606 /* pj_zpoly1.c */; };
-		499E4E2A10BA668100C39606 /* proj_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4D8910BA668100C39606 /* proj_api.h */; };
+		499E4E2A10BA668100C39606 /* proj_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4D8910BA668100C39606 /* proj_api.h */; settings = {ATTRIBUTES = (); }; };
 		499E4E2B10BA668100C39606 /* proj_mdist.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D8B10BA668100C39606 /* proj_mdist.c */; };
 		499E4E2C10BA668100C39606 /* proj_rouss.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D8C10BA668100C39606 /* proj_rouss.c */; };
-		499E4E2E10BA668100C39606 /* projects.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4D8F10BA668100C39606 /* projects.h */; };
+		499E4E2E10BA668100C39606 /* projects.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4D8F10BA668100C39606 /* projects.h */; settings = {ATTRIBUTES = (); }; };
 		499E4E2F10BA668100C39606 /* rtodms.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D9010BA668100C39606 /* rtodms.c */; };
 		499E4E3010BA668100C39606 /* vector1.c in Sources */ = {isa = PBXBuildFile; fileRef = 499E4D9110BA668100C39606 /* vector1.c */; };
-		499E4E3410BA671B00C39606 /* proj_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4E3310BA671B00C39606 /* proj_config.h */; };
-		AA747D9F0F9514B9006C5449 /* Proj_4_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* Proj_4_Prefix.pch */; };
+		499E4E3410BA671B00C39606 /* proj_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E4E3310BA671B00C39606 /* proj_config.h */; settings = {ATTRIBUTES = (); }; };
+		AA747D9F0F9514B9006C5449 /* Proj_4_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* Proj_4_Prefix.pch */; settings = {ATTRIBUTES = (); }; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -553,6 +553,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499E4E2A10BA668100C39606 /* proj_api.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* Proj_4_Prefix.pch in Headers */,
 				499E4D9A10BA668100C39606 /* emess.h in Headers */,
 				499E4D9D10BA668100C39606 /* geocent.h in Headers */,
@@ -560,7 +561,6 @@
 				499E4DA810BA668100C39606 /* nad_list.h in Headers */,
 				499E4DAB10BA668100C39606 /* org_proj4_Projections.h in Headers */,
 				499E4DEB10BA668100C39606 /* pj_list.h in Headers */,
-				499E4E2A10BA668100C39606 /* proj_api.h in Headers */,
 				499E4E2E10BA668100C39606 /* projects.h in Headers */,
 				499E4E3410BA671B00C39606 /* proj_config.h in Headers */,
 			);
@@ -796,10 +796,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Proj_4_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = /usr/local/lib;
+				INSTALL_PATH = "$(TARGET_TEMP_DIR)/UninstalledProducts";
 				PRODUCT_NAME = Proj_4;
 				SKIP_INSTALL = YES;
-				SYMROOT = build;
+				SYMROOT = "$(BUILD_DIR)/libProj_build";
 			};
 			name = Release;
 		};
@@ -834,6 +834,70 @@
 			};
 			name = Release;
 		};
+		499AFDA513F544C50037C908 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = build;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = build;
+			};
+			name = "Ad Hoc";
+		};
+		499AFDA613F544C50037C908 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/Proj_4.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Proj_4_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = Proj_4;
+				SKIP_INSTALL = YES;
+				SYMROOT = build;
+			};
+			name = "Ad Hoc";
+		};
+		499AFDA713F544C80037C908 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = build;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = build;
+			};
+			name = Distribution;
+		};
+		499AFDA813F544C80037C908 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/Proj_4.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Proj_4_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(TARGET_TEMP_DIR)/UninstalledProducts";
+				PRODUCT_NAME = Proj_4;
+				SKIP_INSTALL = YES;
+				SYMROOT = "$(BUILD_DIR)/libProj_build";
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -842,18 +906,22 @@
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
 				1DEB922008733DC00010E9CD /* Release */,
+				499AFDA813F544C80037C908 /* Distribution */,
+				499AFDA613F544C50037C908 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Ad Hoc";
 		};
 		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "Proj.4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
 				1DEB922408733DC00010E9CD /* Release */,
+				499AFDA713F544C80037C908 /* Distribution */,
+				499AFDA513F544C50037C908 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Ad Hoc";
 		};
 /* End XCConfigurationList section */
 	};
