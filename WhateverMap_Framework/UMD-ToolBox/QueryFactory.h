@@ -55,10 +55,7 @@
 
 
 - (NSString*) buildQueryFromArray:(NSArray*)mapSourceAddressArray WithZoom: (NSInteger)zoom Column:(NSInteger)column Row:(NSInteger)row inCoordinateSystem:(NSString*) coordSystem;
-- (BOOL) findKeyWordAndReplace:(NSString**) expression WithZoom:(NSInteger)zoom Column:(NSInteger)column Row:(NSInteger)row  inCoordinateSystem:(NSString*) coordSystem;
-- (NSString*) TileXYToQuadKeyforTileX:(NSInteger) tileX tileY:(NSInteger) tileY level:(NSInteger) levelOfDetail;
-- (NSString*) convertDec2Hex: (NSInteger)decNumber;
-- (NSString *)convertDec2Bin:(NSInteger)input;
+
 
 
 @end

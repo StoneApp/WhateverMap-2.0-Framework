@@ -21,6 +21,17 @@
 
 #define PRECISION 0.0000001
 
+@interface QueryFactory(Private)
+
+- (BOOL) findKeyWordAndReplace:(NSString**) expression WithZoom:(NSInteger)zoom Column:(NSInteger)column Row:(NSInteger)row  inCoordinateSystem:(NSString*) coordSystem;
+- (NSString*) TileXYToQuadKeyforTileX:(NSInteger) tileX tileY:(NSInteger) tileY level:(NSInteger) levelOfDetail;
+- (NSString*) convertDec2Hex: (NSInteger)decNumber;
+- (NSString *)convertDec2Bin:(NSInteger)input;
+
+@end
+
+
+
 @implementation QueryFactory
 
 @synthesize selectedPixel, offset, zoomScale, frame, bounds, contentInset, contentOffset, maxCol, maxRow;

@@ -352,6 +352,8 @@
 		492C2E8B10C8570900304C0C /* InfoView */ = {
 			isa = PBXGroup;
 			children = (
+				49C7D6B910C167B00022B79A /* InfoViewController.h */,
+				49C7D6BA10C167B00022B79A /* InfoViewController.m */,
 			);
 			name = InfoView;
 			sourceTree = "<group>";
@@ -387,6 +389,12 @@
 		49749AD71039448D00370518 /* Map Controller */ = {
 			isa = PBXGroup;
 			children = (
+				498A9EF11259AF54006901D5 /* UI */,
+				C93B58DE0FCB528700860E6A /* MapController.h */,
+				C93B58DF0FCB528700860E6A /* MapController.m */,
+				493E1C61115B5806000EC6FC /* MapControllerProtocol.h */,
+				49FB685A1243C71300B1BCD8 /* SearchBarDelegate.h */,
+				49FB685B1243C71300B1BCD8 /* SearchBarDelegate.m */,
 			);
 			name = "Map Controller";
 			sourceTree = "<group>";
@@ -394,6 +402,8 @@
 		49749AD8103944AF00370518 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				4961AF3A1287409F006313AF /* AppDelegate.h */,
+				4961AF3B1287409F006313AF /* AppDelegate.m */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -438,21 +448,7 @@
 				49D38C56134DAE9A00416875 /* EditCompositionController */,
 				49443F8F1157C60C001FB20E /* SourceListView */,
 				492C2E8B10C8570900304C0C /* InfoView */,
-				49C7D6B910C167B00022B79A /* InfoViewController.h */,
-				49C7D6BA10C167B00022B79A /* InfoViewController.m */,
 				49D38CE1134DD92C00416875 /* AppCore */,
-				49749AD8103944AF00370518 /* App */,
-				4961AF3A1287409F006313AF /* AppDelegate.h */,
-				4961AF3B1287409F006313AF /* AppDelegate.m */,
-				498A9EF11259AF54006901D5 /* UI */,
-				49749AD71039448D00370518 /* Map Controller */,
-				C93B58DE0FCB528700860E6A /* MapController.h */,
-				C93B58DF0FCB528700860E6A /* MapController.m */,
-				493E1C61115B5806000EC6FC /* MapControllerProtocol.h */,
-				49FB685A1243C71300B1BCD8 /* SearchBarDelegate.h */,
-				49FB685B1243C71300B1BCD8 /* SearchBarDelegate.m */,
-				49D3947E1350DC1700416875 /* NavigationController.h */,
-				49D3947F1350DC1700416875 /* NavigationController.m */,
 			);
 			name = "iKatastr App";
 			sourceTree = "<group>";
@@ -502,6 +498,10 @@
 		49D38CE1134DD92C00416875 /* AppCore */ = {
 			isa = PBXGroup;
 			children = (
+				49749AD8103944AF00370518 /* App */,
+				49749AD71039448D00370518 /* Map Controller */,
+				49D3947E1350DC1700416875 /* NavigationController.h */,
+				49D3947F1350DC1700416875 /* NavigationController.m */,
 			);
 			name = AppCore;
 			sourceTree = "<group>";
@@ -786,7 +786,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WhateverMap_2_Prefix.pch;
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../../WhateverMap_Framework/**";
 				INFOPLIST_FILE = WhateverMap_2.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
@@ -814,7 +814,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WhateverMap_2_Prefix.pch;
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../../WhateverMap_Framework/**";
 				INFOPLIST_FILE = WhateverMap_2.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
@@ -838,7 +838,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
@@ -867,7 +867,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WhateverMap_2_Prefix.pch;
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../../WhateverMap_Framework/**";
 				INFOPLIST_FILE = WhateverMap_2.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
@@ -892,7 +892,7 @@
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
@@ -921,7 +921,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WhateverMap_2_Prefix.pch;
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../../WhateverMap_Framework/**";
 				INFOPLIST_FILE = WhateverMap_2.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
@@ -947,7 +947,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
@@ -977,7 +977,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
